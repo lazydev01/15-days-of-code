@@ -18,10 +18,6 @@ int main(){
                 temp.push_back(max(arr[2*j], arr[(2*j)+1]));
             }
         }
-        // for(int k=0; k<temp.size(); k++){
-        //     cout << temp[k] << " ";
-        // }
-        // cout << endl;
         n/=2;
         arr = temp;
     }
